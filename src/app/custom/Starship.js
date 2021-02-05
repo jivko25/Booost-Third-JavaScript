@@ -5,7 +5,7 @@ export default class Starship{
         this._passengers = _passengers;
     }
 
-    maxDaysInSpace(a, b){
+    get maxDaysInSpace(a, b){
         // var consumables = parseInt(this._consumables);
         // var passengers = parseInt(this._passengers);
         // var res = consumables/passengers;
