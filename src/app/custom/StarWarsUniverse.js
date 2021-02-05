@@ -83,7 +83,7 @@ export default class StarWarsUniverse{
         }
     }
 
-    async theBestStarship(){
+    get theBestStarship(){
         const arr = this.starships;
         var max = 0;
         var maxI = 0;
