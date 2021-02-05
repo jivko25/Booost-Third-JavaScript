@@ -9,7 +9,7 @@ export default class StarWarsUniverse{
         const count = await this._getStarshipCount();
         // console.log(count);
         await this._createStarships();
-        console.log(await this.theBestStarship());
+        // console.log(await this.theBestStarship());
     }
 
     async _getStarshipCount(){
